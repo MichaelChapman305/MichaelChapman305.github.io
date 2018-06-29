@@ -3,7 +3,7 @@
   <head>
     <title>Michael Chapman</title>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -18,11 +18,11 @@
         </div>
       </header>
       <div class="phrase__container">
-        <p class="phrase">— Hi I'm Michael. I'm a software engineer who loves solving
+        <p class="phrase"><span class="bold">—</span> Hi I'm Michael. I'm a software engineer who loves solving
           complex problems and crafting elegant and functional user interfaces.
         </p>
       </div>
-      <div class="work__container">
+      <div class="work__description-container">
         <div id="work__image-one-container">
           <div id="work__image-one">
             <div class="img__container">
@@ -57,6 +57,19 @@
         </div>
       </div>
     </div>
+    <div class="button__container">
+      <a target="_blank" href="mailto:chapmanm305@gmail.com"><img id="mail__img" class="button" src="./images/mail.svg"></a>
+      <a target="_blank" href="https://github.com/MichaelChapman305"><img id="github__img" class="button" src="./images/github.svg" alt="github"></a>
+      <a target="_blank" href="https://www.linkedin.com/in/michaelchapman305/"><img id="linkedin__img" class="button" src="./images/linkedin.svg" alt="linkedin"></a>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115629088-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-115629088-2');
+    </script>
     <script>
       document.getElementById('work__nav').style.color = '#FF6359';
     </script>
