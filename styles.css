@@ -8,9 +8,147 @@ body {
   font-smoothing: antialiased;
 }
 
-/* ----------HEADER-----------------------------------------------*/
+.nav:hover {
+  cursor: pointer;
+}
 
-#header {
+#work__:active {
+  color: #FF6359;
+}
+
+/* ----------ABOUT-----------------------------------------------*/
+
+.about__container {
+  height: 100%;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-color: #E5E5E5;
+  border-bottom-style: solid;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.head h1 {
+  font-size: 53px;
+  margin-right: 6em;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 8em;
+  font-size: 18px;
+  margin-top: 3em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #484848;
+}
+
+.bio__container {
+  display: flex;
+  flex-direction: row;
+  justify-Content: space-around;
+  margin-top: 1em;
+}
+
+.kayak__img {
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+  margin-left: 13em;
+  margin-top: 2em;
+}
+
+.bio {
+  width: 40em;
+  font-size: 17px;
+  margin-right: 8em;
+  margin-bottom: 5em;
+}
+
+.button__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+}
+
+.button {
+  margin-top: 3em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+/*---------WORK---------------------*/
+
+#work__head h1 {
+  margin-right: 8em;
+}
+
+.phrase__container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 16em;
+  font-size: 32px;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.phrase {
+  font-weight: 100;
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__img {
+  width: 40em;
+  height: 25em;
+  margin-bottom: 0em;
+}
+
+.work__container h2 {
+  font-size: 36px;
+}
+
+.project__description {
+  font-size: 18px;
+  color: #969696;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+.tech {
+  color: #F24949;
+  margin-bottom: 5em;
+  margin-top: .75em;
+}
+
+.line {
+  margin-top: 0em;
+}
+
+
+
+
+
+/*#header {
   width: 100%;
   height: 75%;
   border-bottom-width: 1px;
@@ -69,7 +207,7 @@ h1 {
 
 /* ----------BODY-----------------------------------------------*/
 
-#body__container {
+/*#body__container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -129,7 +267,7 @@ h2 {
 }
 
 /* ----------FOOTER-----------------------------------------------*/
-
+/*
 #footer {
   display: flex;
   flex-direction: column;
@@ -185,11 +323,11 @@ h2 {
 }
 
 /*------------MEDIA---QUERIES----------------------------*/
-
+/*
 @media only screen and (min-width: 1000px) {
 
   /* -------------HEADER-----------------------------------*/
-  #m__symbol {
+/*  #m__symbol {
     width: 5em;
     height: 5em;
   }
@@ -208,7 +346,7 @@ h2 {
   }
 
   /*-----------------BODY--------------------------------*/
-
+/*
   #body__container {
     display: flex;
     flex-direction: row;
@@ -269,7 +407,7 @@ h2 {
   }
 
   /* ----------FOOTER-----------------------------------------------*/
-
+/*
   #kayak__img {
     display: block;
     width: 16em;
@@ -292,4 +430,4 @@ h2 {
   #resume__button {
     width: 9em;
   }
-}
+}*/
