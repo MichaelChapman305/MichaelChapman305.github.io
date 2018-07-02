@@ -1,8 +1,13 @@
 body {
+  margin: 0;
   font-family: 'Roboto:400', sans-serif;
   color: #484848;
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
+}
+
+p {
+  margin: 0;
 }
 
 .nav:hover {
@@ -22,27 +27,20 @@ body {
 .head {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 5em;
+  justify-content: space-between;
+  align-items: baseline;
   padding-left: 10em;
   padding-right: 10em;
+  margin-top: 5em;
 }
 
 .head h1 {
+  margin: 0;
   font-size: 53px;
   color: #484848;
-  width: 9em;
-  margin: 0;
-  margin-top: .5em;
-}
-
-.title__container {
-  width: 25em;
-  margin-right: 28em;
 }
 
 .header__link {
-  width: 9em;
   text-decoration: none;
 }
 
@@ -52,7 +50,7 @@ body {
   justify-content: space-around;
   width: 7em;
   font-size: 18px;
-  margin-top: 2.5em;
+  margin-right: 10%;
 }
 
 .navigation a {
@@ -67,10 +65,19 @@ body {
   margin-top: 2em;
 }
 
+.bio__container-title {
+    margin-left: .5em;
+}
+
+.bio__container-description {
+  margin-bottom: .75em;
+  margin-left: .5em;
+}
+
 .kayak__img {
   border-radius: 50%;
-  width: 20em;
-  height: 20em;
+  max-width: 20em;
+  max-height: 20em;
   margin-left: 12em;
   margin-top: 2em;
 }
@@ -79,14 +86,17 @@ body {
   width: 40em;
   font-size: 17px;
   margin-right: 8em;
-  margin-bottom: 4.5em;
+  margin-bottom: 7em;
 }
 
 .button__container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
+  margin-top: .75em;
+  width: 13em;
   height: 5em;
 }
 
@@ -95,9 +105,6 @@ body {
 }
 
 .button {
-  margin-top: 3em;
-  margin-right: 2em;
-  margin-bottom: 2em;
   transition: .4s ease;
   opacity: 1;
 }
@@ -134,6 +141,7 @@ body {
 .phrase {
   font-family: 'Roboto:300', sans-serif;
   line-height: 1.3;
+  font-weight: 300;
 }
 
 .bold {
@@ -160,6 +168,10 @@ body {
   cursor: pointer;
 }
 
+.project__title {
+  margin: 0;
+}
+
 .work__description-container h2 {
   margin: 0;
   margin-top: .5em;
@@ -170,16 +182,13 @@ body {
 .project__description {
   font-size: 18px;
   color: #969696;
-  margin-bottom: 0em;
-  margin-top: 0em;
+  width: 30em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .tech {
   color: #F24949;
   margin-bottom: 6em;
   margin-top: .75em;
-}
-
-.line {
-  margin-top: 0em;
 }
