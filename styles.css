@@ -63,8 +63,8 @@ p {
   justify-Content: center;
   align-items: center;
   margin-top: 2.5em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .bio__container-description {
@@ -194,7 +194,7 @@ p {
 
 /*-----------MEDIA-----------*/
 
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
   .head {
     display: flex;
     flex-direction: row;
@@ -203,6 +203,7 @@ p {
     padding-left: 10em;
     padding-right: 10em;
     margin-top: 5em;
+    max-width: 70em;
   }
 
   .head h1 {
@@ -227,6 +228,7 @@ p {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-Content: space-around;
+    max-width: 90em;
   }
 
   .bio__container-title {
