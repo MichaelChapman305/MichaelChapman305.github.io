@@ -6,7 +6,7 @@ body {
   font-smoothing: antialiased;
 }
 
-p {
+p, h1, h2 {
   margin: 0;
 }
 
@@ -85,6 +85,10 @@ p {
   margin-bottom: 11em;
 }
 
+.bio h2 {
+  margin-bottom: .75em;
+}
+
 .button__container {
   display: flex;
   flex-direction: row;
@@ -160,10 +164,6 @@ p {
   cursor: pointer;
 }
 
-.project__title {
-  margin: 0;
-}
-
 .work__description-container h2 {
   margin: 0;
   margin-top: 1em;
@@ -229,10 +229,11 @@ p {
     flex-wrap: nowrap;
     justify-Content: space-around;
     max-width: 90em;
+    margin-top: 3em;
   }
 
-  .bio__container-title {
-    margin-left: .5em;
+  .bio h2 {
+    margin-left: .25em;
   }
 
   .bio__container-description {
@@ -251,6 +252,6 @@ p {
     font-size: 17px;
     margin-left: 0;
     margin-right: 8em;
-    margin-bottom: 2.25em;
+    margin-bottom: 3em;
   }
 }
